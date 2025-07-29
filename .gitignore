@@ -1,0 +1,58 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/                  # Your virtual environment
+lib/
+lib64/
+local/
+share/
+include/
+bin/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+.nox/
+.ipynb_checkpoints/    # Jupyter notebooks checkpoints
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Editors / OS generated files
+.idea/                          # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.vscode/                        # VS Code
+*.sublime-project
+*.sublime-workspace
+.DS_Store                       # macOS system files
+Thumbs.db                       # Windows thumbnail cache
+ehthumbs.db
+.project                        # Eclipse project files
+.classpath
+.settings/
+
+# Log files and generated outputs
+*.log
+*.log.*
+logs/                           # TensorBoard logs and other training logs
+tmp/
+temp/
+
+# Large files - DO NOT UPLOAD TO GITHUB
+data/                           # Your entire image dataset (train, test, validation)
+models/                         # Trained Keras models (.h5, .keras)
+*.h5                            # Specific Keras model files (old format)
+*.keras                         # Specific Keras model files (new format)
+*.onnx                          # If any ONNX models are generated/used here
+*.pt                            # If any PyTorch models are generated/used here
+
+# Other temporary files
+project1                        # Appears to be a temporary or workspace file based on image
